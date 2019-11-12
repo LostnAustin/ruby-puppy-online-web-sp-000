@@ -33,7 +33,7 @@ attr_accessor :name
       @@all
       @@all << self
       
-    
+
     end
 
 end
