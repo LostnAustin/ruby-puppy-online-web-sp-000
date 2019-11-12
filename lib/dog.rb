@@ -32,6 +32,7 @@ attr_accessor :name
     def save
       @@all
       @@all << self
+      dog.news
     
     end
 
