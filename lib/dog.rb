@@ -32,7 +32,7 @@ attr_accessor :name
     def save
       @@all
       @@all << self
-      @initialize.save
+    
     end
 
 end
