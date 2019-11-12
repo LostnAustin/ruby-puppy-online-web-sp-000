@@ -6,6 +6,7 @@ attr_accessor :name
 
     def initialize(name)
       @name = name
+    #  @@all << self           ...this is replaced by creating save method and then calling below
       self.save
 
     end
