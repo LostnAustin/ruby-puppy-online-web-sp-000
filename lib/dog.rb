@@ -33,7 +33,7 @@ attr_accessor :name
       @@all
       @@all << self
       dog.news
-    
+
     end
 
 end
